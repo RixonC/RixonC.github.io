@@ -3,6 +3,7 @@ title: "DINGO: Distributed Newton-Type Method for Gradient-Norm Optimization"
 collection: publications
 permalink: /publication/2019-DINGO
 venue: 'Advances in Neural Information Processing Systems 32 (NIPS 2019)'
+date: 2019-12-10
 paperurl: 'https://papers.nips.cc/paper/9146-dingo-distributed-newton-type-method-for-gradient-norm-optimization'
 ---
 
