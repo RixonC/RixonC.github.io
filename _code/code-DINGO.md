@@ -1,6 +1,6 @@
 ---
-title: "DINGO: Distributed Newton-Type Method for Gradient-Norm Optimization"
-excerpt: "Code for DINGO<br/><img src='/images/500x300.png'>"
+title: "DINGO"
+excerpt: "Code for <a href="/publication/2019-DINGO">DINGO: Distributed Newton-Type Method for Gradient-Norm Optimization</a>"
 collection: portfolio
 ---
 DINGO
