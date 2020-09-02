@@ -1,6 +1,7 @@
 ---
 title: "DINGO"
-excerpt: "Code for [NeurIPS 2019 Paper](/publication/2019-DINGO)"
+excerpt: "Code for [NeurIPS 2019 Paper](/publication/2019-DINGO)<br>
+<img src='https://img.shields.io/github/license/RixonC/DINGO' href='/'>"
 collection: code
 ---
 DINGO
