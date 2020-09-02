@@ -8,41 +8,91 @@ excerpt: "Implementation of Newton-CG algorithm with backtracking line-search<br
 <img src='https://img.shields.io/github/stars/RixonC/NewtonCG' href='/'>
 <img src='https://img.shields.io/github/forks/RixonC/NewtonCG' href='/'>"
 collection: code
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.2'
+      jupytext_version: 1.6.0
+  kernelspec:
+    display_name: 'Python 3.8.3 64-bit (''torch'': virtualenv)'
+    name: python_defaultSpec_1599019555120
 ---
 
-<html>
-<head><meta charset="utf-8" />
+# An example use case of NewtonCG optimizer
 
-<title>code-NewtonCG</title>
+```python
+import torch
+import torch.nn as nn
+import torchvision
+from newton_cg import NewtonCG
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+```
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+## Load data
+### We use MNIST
 
+```python
+transform = transforms.ToTensor()
+train_set = datasets.MNIST("~/Downloads/", transform=transform)
+test_set = datasets.MNIST("~/Downloads/", transform=transform, train=False)
+train_loader = DataLoader(train_set, batch_size=len(train_set))
+test_loader = DataLoader(test_set, batch_size=len(test_set))
+```
 
+### NewtonCG assumes optimization steps are performed over the full dataset
 
-<style type="text/css">
-    /*!
-*
-* Twitter Bootstrap
-*
-*/
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-}
-article,
-aside,
-details,
+```python
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+train_inputs, train_targets = iter(train_loader).next()
+train_inputs = train_inputs.reshape(-1, 784).to(device)
+train_targets = train_targets.to(device)
+test_inputs, test_targets = iter(test_loader).next()
+test_inputs = test_inputs.reshape(-1, 784).to(device)
+test_targets = test_targets.to(device)
+```
+
+## Define model, loss function and optimizer
+### We use softmax regression with cross entropy loss, as it's convex
+
+```python
+weights = torch.zeros(784, 10, requires_grad=True, device=device)
+criterion = nn.CrossEntropyLoss()
+optimizer = NewtonCG([weights])
+```
+
+## Train the model
+
+```python
+num_epochs = 10
+for epoch in range(num_epochs):
+    # compute test accuracy
+    correct = 0
+    total = 0
+    outputs = torch.mm(test_inputs, weights)
+    _, predicted = torch.max(outputs.data, 1)
+    total += test_targets.size(0)
+    correct += (predicted == test_targets).sum().item()
+    accuracy = 100 * correct / total
+
+    # optimizer step
+    optimizer.zero_grad()
+    outputs = torch.mm(train_inputs, weights)
+    loss = criterion(outputs, train_targets)
+    loss.backward()
+    closure = lambda : criterion(torch.mm(train_inputs, weights), train_targets)
+    loss = optimizer.step(closure)
+
+    print("epoch: {},  loss: {:.2e},  "
+          "test accuracy: {:.2f}".format(epoch, loss, accuracy))
+```
+
+```python
+
+```
+
 figcaption,
 figure,
 footer,
