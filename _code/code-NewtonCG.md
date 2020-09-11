@@ -20,6 +20,7 @@ jupyter:
     name: python_defaultSpec_1599019555120
 ---
 
+<a href="https://github.com/RixonC/NewtonCG" class="btn">Code Repository</a>
 <img src='https://img.shields.io/static/v1?label=PyTorch&message=v1.5&color=yellow&style=flat&logo=pytorch&logoColor=white' href='/'>
 <img src='https://img.shields.io/static/v1?label=Jupyter&message=v6&color=yellow&style=flat&logo=jupyter&logoColor=white' href='/'>
 <img src='https://img.shields.io/static/v1?label=Python&message=v3.7&color=blueviolet&style=flat&logo=python&logoColor=white' href='/'>
@@ -36,8 +37,6 @@ for [PyTorch](https://pytorch.org/) as a
 CG refers to the 
 [conjugate gradient method](https://en.wikipedia.org/wiki/Conjugate_gradient_method), 
 which is the optimizer's sub-problem solver.
-
-<a href="https://github.com/RixonC/NewtonCG" class="btn">Code Repository</a>
 
 # An example use case of NewtonCG optimizer
 
