@@ -8,7 +8,7 @@ excerpt: "
 <img src='https://img.shields.io/github/license/RixonC/Polynomial-Regression' href='/'>
 <img src='https://img.shields.io/github/stars/RixonC/Polynomial-Regression' href='/'>
 <img src='https://img.shields.io/github/forks/RixonC/Polynomial-Regression' href='/'>
-<br>Interactive GPU-accelerated polynomial regression"
+<br>An interactive GPU-accelerated polynomial regression"
 collection: code
 ---
 Polynomial-Regression
