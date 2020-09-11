@@ -21,6 +21,9 @@ collection: code
 <a href="https://github.com/RixonC/Genetic-Algorithm" class="btn">Repository</a>
 <a href="https://rixonc.github.io/Genetic-Algorithm/" class="btn">Full-Screen</a>
 
+This is my project for the 
+2019 [Global Change Scholars Program](https://graduate-school.uq.edu.au/current-students/global-change-scholars-program) Showcase.
+
 <iframe 
     width="100%"
     height="512"
