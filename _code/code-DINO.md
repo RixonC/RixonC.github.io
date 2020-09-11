@@ -6,7 +6,7 @@ excerpt: "
 <img src='https://img.shields.io/github/license/RixonC/DINO' href='/'>
 <img src='https://img.shields.io/github/stars/RixonC/DINO' href='/'>
 <img src='https://img.shields.io/github/forks/RixonC/DINO' href='/'>
-<br>Code for [ICML 2020 Paper](/publication/2020-DINO)"
+<br>Code for our [ICML 2020 Paper](/publication/2020-DINO)"
 collection: code
 ---
 DINO
