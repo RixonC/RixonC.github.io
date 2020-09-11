@@ -15,6 +15,5 @@ Polynomial-Regression
 <iframe 
     width="512"
     height="512"
-    allowfullscreen
     src="https://rixonc.github.io/Polynomial-Regression/">
 </iframe>
