@@ -20,6 +20,15 @@ jupyter:
     name: python_defaultSpec_1599019555120
 ---
 
+Implementation of
+[Newton-CG](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)
+algorithm with
+[backtracking line-search](https://en.wikipedia.org/wiki/Backtracking_line_search),
+for [PyTorch](https://pytorch.org/) as a 
+[`torch.optim.Optimizer`](https://pytorch.org/docs/stable/optim.html). 
+CG refers to the 
+[conjugate gradient method](https://en.wikipedia.org/wiki/Conjugate_gradient_method), 
+which is the optimizer's sub-problem solver.
 
 # An example use case of NewtonCG optimizer
 
