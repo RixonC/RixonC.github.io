@@ -7,7 +7,7 @@ excerpt: "
 <img src='https://img.shields.io/github/license/RixonC/Genetic-Algorithm' href='/'>
 <img src='https://img.shields.io/github/stars/RixonC/Genetic-Algorithm' href='/'>
 <img src='https://img.shields.io/github/forks/RixonC/Genetic-Algorithm' href='/'>
-<br>Interactive and visual genetic algorithm"
+<br>An interactive and visual genetic algorithm"
 collection: code
 ---
 Genetic-Algorithm
