@@ -24,3 +24,10 @@ Here, we present a novel communication-efficient
 [Newton](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)-type 
 algorithm for finite-sum optimization over a 
 [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) environment.
+
+## Poster
+<iframe 
+    width="100%"
+    height="512"
+    src="/ICML-2020-Poster.pdf">
+</iframe>
