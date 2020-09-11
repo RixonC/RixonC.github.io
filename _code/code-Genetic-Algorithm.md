@@ -10,3 +10,9 @@ excerpt: "Interactive and visual genetic algorithm<br>
 collection: code
 ---
 Genetic-Algorithm
+
+<iframe 
+    width="512"
+    height="512"
+    src="https://rixonc.github.io/Genetic-Algorithm/">
+</iframe>
