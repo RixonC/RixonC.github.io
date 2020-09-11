@@ -7,3 +7,5 @@ venue: "Thirty-third Conference on Neural Information Processing Systems (NeurIP
 date: 2019-12-12
 location: "Vancouver Convention Center, Vancouver, Canada"
 ---
+
+<img src='/files/neurips-logo-new.svg' width='128' href='/'>
