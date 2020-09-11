@@ -8,4 +8,4 @@ date: 2018-10-31
 location: "Torquay, Australia"
 ---
 
-<img src='/files/ACEMS-logo-crop.png' width='256' href='/'>
+<img src='/files/ACEMS-logo-crop.png' width='200' href='/'>
