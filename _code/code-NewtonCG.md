@@ -20,6 +20,13 @@ jupyter:
     name: python_defaultSpec_1599019555120
 ---
 
+<img src='https://img.shields.io/static/v1?label=PyTorch&message=v1.5&color=yellow&style=flat&logo=pytorch&logoColor=white' href='/'>
+<img src='https://img.shields.io/static/v1?label=Jupyter&message=v6&color=yellow&style=flat&logo=jupyter&logoColor=white' href='/'>
+<img src='https://img.shields.io/static/v1?label=Python&message=v3.7&color=blueviolet&style=flat&logo=python&logoColor=white' href='/'>
+<img src='https://img.shields.io/github/license/RixonC/NewtonCG' href='/'>
+<img src='https://img.shields.io/github/stars/RixonC/NewtonCG' href='/'>
+<img src='https://img.shields.io/github/forks/RixonC/NewtonCG' href='/'>
+
 Implementation of
 [Newton-CG](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)
 algorithm with
