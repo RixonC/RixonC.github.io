@@ -30,6 +30,8 @@ CG refers to the
 [conjugate gradient method](https://en.wikipedia.org/wiki/Conjugate_gradient_method), 
 which is the optimizer's sub-problem solver.
 
+<a href="https://github.com/RixonC/NewtonCG" class="btn">Code Repository</a>
+
 # An example use case of NewtonCG optimizer
 
 ```python
