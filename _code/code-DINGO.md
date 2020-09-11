@@ -6,7 +6,7 @@ excerpt: "
 <img src='https://img.shields.io/github/license/RixonC/DINGO' href='/'>
 <img src='https://img.shields.io/github/stars/RixonC/DINGO' href='/'>
 <img src='https://img.shields.io/github/forks/RixonC/DINGO' href='/'>
-<br>Code for [NeurIPS 2019 Paper](/publication/2019-DINGO)"
+<br>Code for our [NeurIPS 2019 Paper](/publication/2019-DINGO)"
 collection: code
 ---
 DINGO
