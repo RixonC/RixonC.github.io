@@ -7,7 +7,7 @@ excerpt: "
 <img src='https://img.shields.io/github/license/RixonC/NewtonCG' href='/'>
 <img src='https://img.shields.io/github/stars/RixonC/NewtonCG' href='/'>
 <img src='https://img.shields.io/github/forks/RixonC/NewtonCG' href='/'>
-<br>Implementation of Newton-CG algorithm with backtracking line-search"
+<br>An implementation of Newton-CG algorithm with backtracking line-search"
 collection: code
 jupyter:
   jupytext:
