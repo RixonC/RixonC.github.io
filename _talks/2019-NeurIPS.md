@@ -12,6 +12,7 @@ location: "Vancouver Convention Center, Vancouver, Canada"
 
 Presentation for our [NeurIPS 2019 Paper](/publication/2019-DINGO)
 
+## Poster
 <iframe 
     width="100%"
     height="512"
