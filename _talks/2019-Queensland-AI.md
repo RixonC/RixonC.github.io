@@ -19,15 +19,12 @@ We’ve all heard that 5G is going to change wireless communication, with incred
 Enter Rixon Crane, a PhD student from UQ. He sees a world where every mobile phone could be part of a giant supercomputer. Rather than working on making deep learning computationally efficient, he’s building a system that makes deep learning communicationally efficient. By deliberately using expensive local training steps, he’s designed a way to minimise overall worker/server communication rounds, increase the scalability of deep learning training and still ensure efficient convergence. To do this, he uses a technique known as “second order optimisation”, which up until recently had too many limitations to be used in most deep learning optimisation. Plus he came up with a great acronym, which (as we all know) is the hardest part of research and development. Yes, this talk is going to get unavoidably technical, but Rixon has a way with breaking down complex ideas into digestible chunks. So come along, learn about some bleeding edge model training techniques and network with fellow pioneers! This talk promises a vision of the future of distributed computing, and it’s awesome that it’s happening here in Brisbane.
 
 ## Comments
-> The whole speech is pretty inspiring and interesting. The DINGO is not only for the 5G, but it can also be applied to every distributed model. Newton's method was not popular since it needs extra computation to calculate the second-order differential. But the Rixon can use it to benefit the distributed system since the largest cost in the system is transmitting the weights. Informative speech!
-
+> "The whole speech is pretty inspiring and interesting. The DINGO is not only for the 5G, but it can also be applied to every distributed model. Newton's method was not popular since it needs extra computation to calculate the second-order differential. But the Rixon can use it to benefit the distributed system since the largest cost in the system is transmitting the weights. Informative speech!"
 **-- Richard H.**
 
-> As a lowly code monkey, most of that went way over my head, but it sure as heck seemed pretty innovative! I can't wait to see the performance metrics.
-
+> "As a lowly code monkey, most of that went way over my head, but it sure as heck seemed pretty innovative! I can't wait to see the performance metrics."
 **-- Callum H.**
 
-> github.com/RixonC/DINGO <br>
-Give this some stars on github. It's more than a little deserved.
-
+> "github.com/RixonC/DINGO <br>
+Give this some stars on github. It's more than a little deserved."
 **-- Matthew**
