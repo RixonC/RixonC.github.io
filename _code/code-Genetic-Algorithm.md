@@ -12,7 +12,7 @@ collection: code
 Genetic-Algorithm
 
 <iframe 
-    width="512"
+    width="100%"
     height="512"
     src="https://rixonc.github.io/Genetic-Algorithm/">
 </iframe>
