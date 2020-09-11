@@ -10,8 +10,4 @@ location: "River City Labs, Brisbane, Australia"
 
 <img src='/files/qld-ai.jpeg' width='64' href='/'>
 
-<iframe 
-    width="100%"
-    height="512"
-    src="https://www.meetup.com/Queensland_AI/events/264022206/">
-</iframe>
+<img src='/files/qld-ai-ad.jpeg' width='100%' href='/'>
