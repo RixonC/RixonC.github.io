@@ -7,3 +7,5 @@ venue: "20th INFORMS Applied Probability Society (INFORMS-APS 2019)"
 date: 2019-07-03
 location: "Brisbane Convention Centre, Brisbane, Australia"
 ---
+
+<img src='/files/Applied_Probability_short.png' width='256' href='/'>
