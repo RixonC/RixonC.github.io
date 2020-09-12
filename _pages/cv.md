@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * 2018 to present: PhD student in the [School of Mathematics and Physics](https://smp.uq.edu.au/) 
-at [The University of Queensland, Australia](https://www.uq.edu.au/)
+at [The University of Queensland](https://www.uq.edu.au/), Australia
 * 2014 to 2017: Graduated with First Class Honours in the 
 [Bachelor of Advanced Science (Honours)](https://future-students.uq.edu.au/study/programs/bachelor-advanced-science-honours-2341)
 with a major in mathematics at The University of Queensland.
