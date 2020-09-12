@@ -22,5 +22,7 @@ My research interests are
 In 2017, I graduated with First Class Honours in the
 [Bachelor of Advanced Science (Honours)](https://future-students.uq.edu.au/study/programs/bachelor-advanced-science-honours-2341)
 with a major in mathematics at The University of Queensland.
-I have a background in pure mathematics, with my honours thesis "Plane Partitions in Number Theory and Algebra" that was 
-completed under the supervision of Professor [Ole Warnaar](https://people.smp.uq.edu.au/OleWarnaar/).
+I have a background in pure mathematics, with my honours thesis 
+"[Plane Partitions in Number Theory and Algebra](/files/Rixon_Crane_Honours_Thesis.pdf)" 
+that was completed under the supervision of Professor 
+[Ole Warnaar](https://people.smp.uq.edu.au/OleWarnaar/).
