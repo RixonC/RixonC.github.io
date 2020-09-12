@@ -11,22 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 2018 to present: PhD student in the [School of Mathematics and Physics](https://smp.uq.edu.au/) 
+at [The University of Queensland, Australia](https://www.uq.edu.au/)
+* 2014 to 2017: Graduated with First Class Honours in the 
+[Bachelor of Advanced Science (Honours)](https://future-students.uq.edu.au/study/programs/bachelor-advanced-science-honours-2341)
+with a major in mathematics at The University of Queensland.
 
-Work experience
+Work Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2018 to 2019: Mathematics Tutor
+  * The University of Queensland
+  * Courses: 
+    * Calculus & Linear Algebra I ([MATH1051](https://my.uq.edu.au/programs-courses/course.html?course_code=MATH1051))
+    * Numerical Linear Algebra and Optimisation ([MATH3204](https://my.uq.edu.au/programs-courses/course.html?course_code=MATH3204))
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+Volunteer Experience
+======
+* Jul 2019: Conference Organizer
+  * An organizer of the [20th INFORMS Applied Probability Society Conference](https://informs-aps.smp.uq.edu.au/)
+  * Technical support
+  * Helped setup and manage registration desk
+  * Designed and assembled name-tags
+* Jan 2016 to Dec 2016: Mathematics Tutor
+  * University of Queensland Refugee Tutoring Club
+  * Supported young refugee people in the Brisbane area through tutoring high school and TAFE subjects
+
 Skills
 ======
 * Skill 1
@@ -53,7 +62,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
