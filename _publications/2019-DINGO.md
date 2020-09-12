@@ -12,5 +12,5 @@ For optimization of a large sum of functions in a distributed computing environm
 
 <a href="https://papers.nips.cc/paper/9146-dingo-distributed-newton-type-method-for-gradient-norm-optimization" class="btn">Paper</a>
 <a href="/DINGO_NeurIPS_Poster.pdf" class="btn">Poster</a>
-<a href="https://github.com/RixonC/DINGO" class="btn">Code</a>
+<a href="/code/code-DINGO" class="btn">Code</a>
 <a href="https://arxiv.org/abs/1901.05134" class="btn">arXiv</a>
